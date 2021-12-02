@@ -1,7 +1,11 @@
-# Vue 3 + Vite
+# CountDown
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Feedback:
+### 格式:
+1. script setup里面的东西顶格（没有默认缩进）  
+2. script第一，template第二  
+3. 所有单行花括号内侧有空格，比如{ ref }，或者{{ time }}  
 
-## Recommended IDE Setup
+### 逻辑：
+逻辑不够简洁，变量过多造成浪费
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
