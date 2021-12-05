@@ -11,19 +11,19 @@
     &emsp; display: grid;  
   }
 
-- 指定宽度: "grid-template-columns"  
-  固定宽度：  
+- 指定宽度: "grid-template-columns"    
+  固定宽度：    
   .grid {  
     &emsp; display: grid;  
     &emsp; grid-template-columns: 100px 100px 100px; // 三列   
   }  
-  浮动宽度：  
+  浮动宽度：    
   .grid {  
     &emsp; display: grid;  
     &emsp; grid-template-columns: 1fr 1fr 1fr; // fr表示剩余空间  
   }
 
-- 列间距：column-gap
+- 列间距：column-gap  
   .grid {  
     &emsp; display: grid;  
     &emsp; grid-template-columns: 1fr 1fr 1fr;  
@@ -31,14 +31,14 @@
   }
 
 
-- 行间距：row-gap
+- 行间距：row-gap  
   .grid {  
     &emsp; display: grid;  
     &emsp; grid-template-columns: 1fr 1fr 1fr;  
     &emsp; row-gap: 24px;  
   }
 
-- 行和列间距统一设置：gap  
+- 行和列间距统一设置：gap    
   .grid {  
     &emsp; display: grid;  
     &emsp; grid-template-columns: 1fr 1fr 1fr;  
