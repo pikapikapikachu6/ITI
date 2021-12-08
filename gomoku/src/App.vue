@@ -1,21 +1,398 @@
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <p> 五子棋游戏 </p>
+  <button @click="start">start</button>
+  <button @click="restart()">restart</button>
+  <p> player1 </p>
+  <p> player2 </p>
+  <div class = container>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+    <div class= item></div>
+  </div>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  .container {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background: #D7D7D7;
+    display: grid;
+    grid-template-columns: repeat(19, 1fr);
+    grid-template-rows: repeat(19, 1fr);
+  }
+
+  .container .item{
+    border: 1px solid black;
+  }
+
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
 </style>
